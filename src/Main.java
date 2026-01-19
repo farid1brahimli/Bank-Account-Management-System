@@ -3,7 +3,7 @@ import exceptions.InsufficientBalancedException;
 
 public class Main {
     public static void main(String[] args) {
-        BankAccount account = new SavingsAccount(1000,250);
+        BankAccount account = new SavingsAccount(1500,250);
         Customer customer = new Customer("Farid", account);
 
         customer.showBalance();
